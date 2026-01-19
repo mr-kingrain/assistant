@@ -13,7 +13,8 @@ fi
 
 if [ "$ONLINE" = true ]; then
     echo "Updating system..."
-    sudo apt update && sudo apt upgrade -y
+	
+    sudo -S apt update && sudo apt upgrade -y
 
     echo "Removing unused packages..."
     sudo apt autoremove -y

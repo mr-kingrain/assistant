@@ -1,16 +1,14 @@
 from python.speak import talk
+from python.speak import tspeak as speak
 from python.setup import setuping as setup
 from python.setup import check 
 from python.HandleCommand import handleC as Handle_command
+from python.train.run_ai import txt_detect as ai_text
+
 import threading
 
 
-def speak(a):
-    t = threading.Thread(target=talk, args=(a,))
-    t.start()
 
-    #this make sure that the command is threaded
-    #use talk for things where it needs a pause or smth idk
  
 if not check():
     talk("hello.... can i set my environment?")
@@ -27,7 +25,12 @@ else:
     on = True
     while on:
         choice = input(">")
-        output = Handle_command(choice)
+        with open("user_input.txt", "w") as u:
+            u.write(choice)
+        parsed = ai_text(choice)
+        output = Handle_command(parsed)
         speak(output)
+       
+
         
 
