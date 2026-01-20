@@ -33,9 +33,13 @@ def handleC(a):
         case "run_app":
             run()
         case "play_music":
+            
             play_music()
+            talk("ok")
         case "pause_music":
+            
             pause_music()
+            talk("stopped")
         case "healthchk":
             healthchk()
         case "internet_test":

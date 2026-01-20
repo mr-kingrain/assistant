@@ -71,41 +71,20 @@ start the application : run_app
 run this fucking app or else : run_app
 
 check health : healthchk
-run health check : healthchk
 execute health check : healthchk
 start health check : healthchk
 launch health check : healthchk
 do a health check : healthchk
 perform health check : healthchk
 check system health : healthchk
-run system check : healthchk
 execute the health check : healthchk
 start the system check : healthchk
 check now : healthchk
 run this fucking health check or else : healthchk
 healthcheck : healthchk
 my pc health : healthchk
-check full health : healthchk
-run deep health check : healthchk
-execute thorough health check : healthchk
-start complete health check : healthchk
-launch intensive health check : healthchk
-do a full system health check : healthchk
-perform detailed health check : healthchk
-check system thoroughly : healthchk
-run full diagnostic : healthchk
-execute deep system scan : healthchk
-start complete system analysis : healthchk
-check right now thoroughly : healthchk
-run this full health check or else : healthchk
-initiate complete system health scan : healthchk
-perform exhaustive system check : healthchk
-kick off deep diagnostic check : healthchk
-launch full system evaluation : healthchk
-execute intensive system check : healthchk
-start detailed system scan : healthchk
-do a comprehensive health check : healthchk
-do a advanced health check : healthchk
+
+
 
 pause music : pause_music
 pause sound : pause_music
@@ -230,3 +209,60 @@ working pc : unknown
 pc info : unknown
 pc details : unknown
 about my pc : unknown
+
+run : unknown
+start : unknown
+launch : unknown
+execute : unknown
+do : unknown
+make : unknown
+initiate : unknown
+kick : unknown
+perform : unknown
+play : unknown
+check : unknown
+
+now : unknown
+right now : unknown
+automatically : unknown
+on startup : unknown
+on boot : unknown
+from start : unknown
+at startup : unknown
+
+pls : unknown
+please : unknown
+me : unknown
+some : unknown
+
+this : unknown
+that : unknown
+it : unknown
+here : unknown
+there : unknown
+my : unknown
+your : unknown
+
+pc : unknown
+computer : unknown
+desktop : unknown
+laptop : unknown
+system : unknown
+app : unknown
+application : unknown
+file : unknown
+script : unknown
+
+fucking : unknown
+fuck : unknown
+bitch : unknown
+or else : unknown
+
+i want : unknown
+i need : unknown
+can you : unknown
+how does : unknown
+what can : unknown
+let me : unknown
+give me : unknown
+bring back : unknown
