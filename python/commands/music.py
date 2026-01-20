@@ -9,4 +9,10 @@ def play_music():
 
     bsh = subprocess.run(command, shell=True, capture_output=True, text=True)
    
- 
+def pause_music():
+    speak("pausing all music")
+    command = "playerctl -a pause"
+
+
+    bsh = subprocess.run(command, shell=True, capture_output=True, text=True)
+

@@ -70,21 +70,58 @@ open the app : run_app
 start the application : run_app
 run this fucking app or else : run_app
 
-pause music : pause_sounds
-pause sound : pause_sounds
-stop music : pause_sounds
-mute audio : pause_sounds
-mute sounds : pause_sounds
-turn off music : pause_sounds
-silence audio : pause_sounds
-pause the sounds : pause_sounds
-make music stop : pause_sounds
-shut the music up : pause_sounds
-make the music stop : pause_sounds
-pls pause the music : pause_sounds
-turn off the music : pause_sounds
-make this fucking music stop : pause_sounds
-stop the music : pause_sounds
+check health : healthchk
+run health check : healthchk
+execute health check : healthchk
+start health check : healthchk
+launch health check : healthchk
+do a health check : healthchk
+perform health check : healthchk
+check system health : healthchk
+run system check : healthchk
+execute the health check : healthchk
+start the system check : healthchk
+check now : healthchk
+run this fucking health check or else : healthchk
+healthcheck : healthchk
+my pc health : healthchk
+check full health : healthchk
+run deep health check : healthchk
+execute thorough health check : healthchk
+start complete health check : healthchk
+launch intensive health check : healthchk
+do a full system health check : healthchk
+perform detailed health check : healthchk
+check system thoroughly : healthchk
+run full diagnostic : healthchk
+execute deep system scan : healthchk
+start complete system analysis : healthchk
+check right now thoroughly : healthchk
+run this full health check or else : healthchk
+initiate complete system health scan : healthchk
+perform exhaustive system check : healthchk
+kick off deep diagnostic check : healthchk
+launch full system evaluation : healthchk
+execute intensive system check : healthchk
+start detailed system scan : healthchk
+do a comprehensive health check : healthchk
+do a advanced health check : healthchk
+
+pause music : pause_music
+pause sound : pause_music
+stop music : pause_music
+mute audio : pause_music
+mute sounds : pause_music
+turn off music : pause_music
+silence audio : pause_music
+pause the sounds : pause_music
+make music stop : pause_music
+shut the music up : pause_music
+make the music stop : pause_music
+pls pause the music : pause_music
+turn off the music : pause_music
+make this fucking music stop : pause_music
+stop the music : pause_music
 
 play music : play_music
 resume music : play_music
@@ -104,6 +141,26 @@ bring back the music : play_music
 let me hear some music : play_music
 fucking bring my mega cool music : play_music
 
+test my internet : internet_test
+check internet speed : internet_test
+how fast is my connection : internet_test
+internet speed test : internet_test
+ping test : internet_test
+check my wifi : internet_test
+is my internet working : internet_test
+speed test online : internet_test
+measure internet speed : internet_test
+check network speed : internet_test
+test wifi connection : internet_test
+how strong is my connection : internet_test
+internet working : internet_test
+is wifi fast : internet_test
+run speed test : internet_test
+check latency : internet_test
+internet quality test : internet_test
+my connection speed : internet_test
+wifi speed test : internet_test
+fucking test my internet : internet_test
 
 
 

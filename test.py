@@ -1,3 +1,3 @@
-from python.commands.run import run
+from python.commands.healthchk import healthchk
 
-run()
+healthchk()

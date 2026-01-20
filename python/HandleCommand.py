@@ -1,16 +1,15 @@
 from python.commands.apt import apt 
 from python.commands.apt import default_pswd as DP
 from python.commands.apt import passwd 
-from python.commands.clean import clean
-from python.speak import talk 
+from python.commands.pc import clean,healthchk,internet_test
 from python.commands.run import run
-from python.commands.play_music import play_music
+from python.commands.music import play_music,pause_music
+from python.speak import talk 
+from python.speak import tspeak as speak
 
 import threading
 
-def speak(a):
-    t = threading.Thread(target=talk, args=(a,))
-    t.start()
+
 
 def handleC(a):
 
@@ -35,6 +34,13 @@ def handleC(a):
             run()
         case "play_music":
             play_music()
+        case "pause_music":
+            pause_music()
+        case "healthchk":
+            healthchk()
+        case "internet_test":
+            internet_test()
+
 
 
         case "clean":
@@ -45,7 +51,7 @@ def handleC(a):
         case "" :
             output = "type something"
         case "unknown":  
-            output = "speak clearly please"
+            output = "enter a proper command"
 
 
     return output
